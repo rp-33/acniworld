@@ -1,0 +1,88 @@
+div.cms-video section.container{
+    width: 57%;
+	margin:20px auto;
+	height: 100%;
+	position: relative;
+    padding: 0px;
+}
+
+div.cms-video section.container div.ctn-input{
+	margin-bottom: 20px;
+}
+
+div.cms-video section.container div.ctn-input input.input-title{
+	border-width: 0px;
+	font-size: 2.5em;
+	outline: none;
+	width:100%;
+	margin-bottom:20px;
+}
+
+
+div.cms-video section.container div.ctn-input input.input-video{
+	border-width: 0px;
+	font-size: 1.5em;
+	outline: none;
+	width:100%;
+	margin-bottom:20px;
+}
+
+div.cms-video section.container div.ctn-img{
+	min-height: 200px;
+	max-height: 400px;
+    width:calc(100% - 10px);
+	margin-bottom: 15px;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 0 5px rgba(0,0,0,.4);
+}
+
+div.cms-video section.container div.ctn-img label{
+	min-height: 200px;
+	max-height: 400px;
+	width:calc(100% - 10px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+div.cms-video section.container div.ctn-img .icon-close{
+	position: absolute;
+	top:2px;
+	right:2px
+}
+div.cms-video section.container div.ctn-img div.article{
+	width:100%;
+	height:100%;
+	min-height: 200px;
+	max-height: 400px;
+	position: relative;
+}
+div.cms-video section.container div.ctn-img div.article img{
+	width: 100%;
+	height: 100%;
+	min-height: 200px;
+	max-height: 400px;
+}
+
+div.cms-video section.container div img{
+	border-radius: 4px;
+}
+
+
+div.cms-video section.container div.ctn-img img.upload{
+    width: 80%;
+	height: 80%;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 600px) {
+    div.cms-video section.container{
+        padding: 5px 5px 0px 5px;
+        width: calc(95% - 10px);
+    }
+}
+  

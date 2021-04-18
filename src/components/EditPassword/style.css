@@ -1,0 +1,29 @@
+div.recover-password{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    width:100%;
+    height:100%;
+}
+
+div.recover-password form{
+    background-color: #f7f3f0;
+	width: calc(90% - 50px);
+	border:5px solid #004b98;
+	border-radius: 50px;
+	padding: 5px 25px 30px 25px;
+	max-width: 260px;
+	position: relative;
+    box-shadow: 0 0 4px #737373;
+    margin-bottom:70px
+}
+
+div.recover-password form h3{
+    text-align:center
+}
+
+div.recover-password form .btn{
+    width:100%;
+    margin-top:20px
+}

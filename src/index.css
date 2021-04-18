@@ -1,0 +1,40 @@
+body,html {
+  padding:0px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+div.dashboard >div.ctn-dashboard{
+  margin-top:80px
+}
+.head {
+  background-color: white !important;
+  border-bottom: 1px solid #c7c7c7;
+  color:black !important;
+  font-weight: bold !important
+}
+
+.head a {
+  display:block;
+  display:flex;
+  align-items: center;
+  color:black
+}
+
+.drawer a{
+  color:black !important
+}
+
+a{
+  text-decoration: none
+}

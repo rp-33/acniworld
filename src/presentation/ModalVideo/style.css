@@ -1,0 +1,68 @@
+div.modal-video{
+	display:flex;
+	background-color:#3a80c5d2;
+	opacity:1;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	position: fixed;
+	top:0;
+	bottom:0;
+	z-index: 100000;
+	overflow-y: auto;
+	overflow-x: hidden
+}
+
+div.modal-video div.ctn-modal{
+    background-color: white;
+    width: calc(80% - 60px);
+    height: calc(100% - 60px);
+    margin-top:25px;
+	border-radius: 10px;
+	max-width: 700px;
+	min-width: 280px;
+	position: relative;
+}
+
+div.modal-video div.ctn-modal div.icon-close{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	border-radius: 50%;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+div.modal-video div.ctn-modal > .ctn-video{
+    width:100%;
+    height:70%;
+    border-radius: 10px 10px 0 0;
+}
+
+div.modal-video div.ctn-modal div.ctn-description{
+    padding:0 10px;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 600px) {
+    div.modal-video div.ctn-modal{
+		width:100%;
+		height:100%;
+		margin-top:0px;
+		border-radius: 0px;
+	}
+	div.modal-video div.ctn-modal div.icon-close{
+		top: 5px;
+		right: 5px;	
+	}
+	div.modal-video div.ctn-modal > .ctn-video{
+		border-radius:0px
+	}
+}

@@ -1,0 +1,19 @@
+span.tags {
+    color : white;
+    padding:12px 14px;
+    margin:0 10px;
+    font-weight: bold;
+    border-radius:5px;
+    float: left;
+    margin-top:10px;
+    position: relative;
+    cursor:pointer
+}
+
+span.tags .icon{
+    color:'white';
+    position: absolute;
+    font-size: 15px;
+    top:1px;
+    right:2px;
+}

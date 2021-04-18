@@ -1,0 +1,98 @@
+div.signup {
+    display:flex;
+    background-color:#3a80c5d2;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top:0;
+	bottom:0;
+	z-index: 1;
+	overflow:hidden;
+}
+
+div.signup .form-control{
+	background-color: #f7f3f0;
+	width: calc(80% - 50px);
+	border-radius: 7px;
+	padding: 5px 10px 30px 10px;
+	max-width: 320px;
+	position: relative;
+	box-shadow: 0 0 4px #737373;
+	position: relative;
+}
+
+div.signup .form-control .icon-close{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 2px;
+	right: 5px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+div.signup .form-control form{
+	border-top:1px solid #c7c7c7;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+div.signup  .form-control .title{
+    text-align: center;
+    color:#3a80c5d2;
+}
+
+div.signup  .form-control form .btn{
+	margin-top:20px;
+	margin-bottom:20px
+}
+
+@media screen and (max-width: 600px){
+	div.home div.signup .form-control{
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    div.blog div.signup .form-control{
+        width: calc(90% - 55px);
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+  
+@media screen and (max-width: 400px){
+	div.home div.signup .form-control{
+		min-width: 100%;
+		margin:0px;
+		height: 100%;
+		border-radius: 0px;
+		display: flex;
+		flex:1;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 25px;
+        padding-right: 25px;
+	}
+    div.blog div.signup .form-control{
+		min-width: calc(100% - 50px);
+		margin:0px;
+		height: 100%;
+		border-radius: 0px;
+		display: flex;
+		flex:1;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 25px;
+        padding-right: 25px;
+	}
+	div.signup .form-control .icon-close{
+		top:15px;
+	}
+	
+}
+  

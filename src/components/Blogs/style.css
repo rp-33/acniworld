@@ -1,0 +1,62 @@
+div.blogs section.container{
+    width: 65%;
+	margin:20px auto;
+	height: 100%;
+	position: relative;
+    padding: 0px;
+}
+
+div.blogs section.container div.ctn-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+div.blogs section.container div.ctn-blogs{
+    width:100%;
+    border-top:1px solid #c7c7c7;
+    margin-top:20px;
+}
+div.blogs section.container div.ctn-blogs div.blog-card{
+    margin-top:20px;
+    border-bottom:1px solid #c7c7c7;
+    padding-bottom: 25px;
+}
+
+div.blogs section.container div.ctn-blogs div.blog-card div.ctn-title{
+    margin-top:10px;
+}
+
+div.blogs section.container div.ctn-blogs div.blog-card div.ctn-image{
+    width:100%;
+    max-height: 200px;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+
+div.blogs section.container div.ctn-blogs div.blog-card div.ctn-image img{
+    width:100%;
+    height: 180px;
+    border-radius: 3px
+}
+
+div.blogs section.container div.ctn-blogs div.blog-card a{
+    color:black;
+    font-weight: bold
+}
+
+div.blogs section.container div.ctn-blogs div.blog-card div.ctn-btn{
+    text-align:right
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 600px) {
+    div.blogs section.container{
+        padding: 5px 5px 0px 5px;
+        width: calc(95% - 10px);
+    }
+}
+  

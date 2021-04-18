@@ -1,0 +1,92 @@
+div.my-video section.container{
+    width: 65%;
+	margin:20px auto;
+	height: 100%;
+	position: relative;
+    padding: 0px;
+}
+
+div.my-video section.container div.ctn-head-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+div.my-video section.container div.ctn-video{
+    width:100%;
+    border-top:1px solid #c7c7c7;
+    margin-top:20px;
+}
+div.my-video section.container div.ctn-video div.video-card{
+    margin-top:20px;
+    border-bottom:1px solid #c7c7c7;
+    padding-bottom: 25px;
+}
+
+div.my-video section.container div.ctn-video div.video-card div.ctn-title{
+    margin-top:10px;
+}
+
+div.my-video section.container div.ctn-video div.video-card div.ctn-image{
+    width:100%;
+    height: 200px;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+div.my-video section.container div.ctn-video div.video-card div.ctn-image img{
+    width:100%;
+    height: 100%;
+    max-height: 200px;
+    border-radius: 3px
+}
+
+div.my-video section.container div.ctn-video div.video-card a{
+    color:black;
+    font-weight: bold
+}
+
+div.my-video section.container div.ctn-video div.video-card div.ctn-btn{
+    text-align:right
+}
+
+/*MODAL-DELETE*/
+
+div.my-video div.modal-delete{
+    display:flex;
+    background-color:#3a80c5d2;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top:0;
+	bottom:0;
+	z-index: 100000;
+	overflow-y: auto;
+}
+
+
+div.my-video div.modal-delete div.ctn{
+	background-color: #f7f3f0;
+	width: calc(80% - 50px);
+	min-height: 120px;
+	border-radius: 20px;
+	padding: 5px 10px 10px 10px;
+	max-width: 260px;
+	position: relative;
+	box-shadow: 0 0 4px #737373;
+	position: relative;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 600px) {
+    div.my-video section.container{
+        padding: 5px 5px 0px 5px;
+        width: calc(95% - 10px);
+    }
+}
+  

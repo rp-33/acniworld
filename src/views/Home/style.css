@@ -1,0 +1,108 @@
+.home .information{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.home .information h2.tex-sub-head{
+	color: #004b98;
+}
+
+.home .information img{
+	width:100%;
+	height: auto;
+}
+
+.home .information .ctn-grid{
+	padding: 0 20px;
+}
+
+.home .capacitation,.home .article{
+	margin-top: 20px;
+	padding: 40px 20px 40px 20px;
+
+}
+
+.home .capacitation img,.home .article img{
+	width:100%;
+	max-height: 200px;
+	height: auto;
+}
+
+.home .capacitation div.breadcrumb,.home .article div.breadcrumb{
+	text-align: right;
+	margin-top:50px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	
+}
+
+.home .capacitation div.breadcrumb > div,.home .article div.breadcrumb >div{
+	width:250px;
+}
+
+.home .carousel img{
+	width: 100%;
+	height: 100%
+}
+
+.home div.team{
+	padding:0 20px;
+}
+
+.home div.team div.paper{
+	border-radius:10px;
+	padding:20px;
+	background: linear-gradient(-217deg,#9198e5,#8062FC 90%);
+	color:white;
+	
+}
+
+.home div.team{
+	padding-top: 40px
+}
+
+.home div.team div.paper h2{
+	text-align: center;
+}
+
+.home div.team{
+	margin-bottom: 20px;
+}
+
+.home div.team .team-user{
+	display: flex;
+	flex-direction: row;
+	box-shadow: 0px 0px 4px rgba(0,0,0,.4);
+	width: 100%;
+	border-radius: 3px
+}
+
+.home div.team .team-user div.ctn-avatar{
+	width:120px;
+	height: 100px;
+}
+.home div.team .team-user div.ctn-avatar img{
+	width: 100%;
+	height: 100%;
+	border-radius:3px 0 0 3px;
+}
+
+.home div.team .team-user div.ctn-inf{
+	display: flex;
+	flex:1;
+	align-items: center;
+	flex-direction: column;
+}
+
+.home div.team button{
+	width: 100%;
+	background-color: white;
+	border-radius: 40px;
+	border-width: 0px;
+	padding: 17px 0;
+	box-shadow: 0 1px 4px rgba(0,0,0,.4);
+	font-weight: bold;
+	color:#8062FC;
+	font-size: 1.1em
+}
